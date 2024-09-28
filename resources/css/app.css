@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../sass/main.scss';
+
+[x-cloak] {
+    display: none;
+}

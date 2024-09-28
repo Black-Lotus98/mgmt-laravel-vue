@@ -1,0 +1,382 @@
+{
+    "lang": {
+        "en": "en",
+        "ar": "ar"
+    },
+    "#": {
+        "en": "#",
+        "ar": "#"
+    },
+    "MENU": {
+        "en": "MENU",
+        "ar": "القائمة"
+    },
+    "SUPER ADMIN MENU": {
+        "en": "SUPER ADMIN MENU",
+        "ar": "قائمة الادارة العامة"
+    },
+    "Dashboard": {
+        "en": "Dashboard",
+        "ar": "لوحة القيادة"
+    },
+    "Profile": {
+        "en": "Profile",
+        "ar": "الملف الشخصي"
+    },
+    "Logout": {
+        "en": "Logout",
+        "ar": "تسجيل الخروج"
+    },
+    "Main": {
+        "en": "Main",
+        "ar": "الرئيسية"
+    },
+    "Calendar": {
+        "en": "Calendar",
+        "ar": "التقويم"
+    },
+    "Trucks": {
+        "en": "Trucks",
+        "ar": "الشاحنات"
+    },
+    "Profile Details": {
+        "en": "Profile Details",
+        "ar": "الملف الشخصي"
+    },
+    "Change Password": {
+        "en": "Change Password",
+        "ar": "تغيير كلمة المرور"
+    },
+    "Two Factor Authentication": {
+        "en": "Two Factor Authentication",
+        "ar": "التحقق من المصادقة"
+    },
+    "Browse Sessions": {
+        "en": "Browse Sessions",
+        "ar": "سجلات الدخول"
+    },
+    "Users": {
+        "en": "Users",
+        "ar": "المستخدمين"
+    },
+    "Users List": {
+        "en": "Users List",
+        "ar": "قائمة المستخدمين"
+    },
+    "Add User": {
+        "en": "Add User",
+        "ar": "اضافة مستخدم"
+    },
+    "Roles & Permissions": {
+        "en": "Roles & Permissions",
+        "ar": "الصلاحيات والاذونات"
+    },
+    "Roles": {
+        "en": "Roles List",
+        "ar": "قائمة الادوار"
+    },
+    "Roles Access": {
+        "en": "Roles Access",
+        "ar": "وصول الادوار"
+    },
+    "Add Role": {
+        "en": "Add Role",
+        "ar": "اضافة دور"
+    },
+    "Permissions": {
+        "en": "Permissions List",
+        "ar": "قائمة الصلاحيات"
+    },
+    "Permissions Access": {
+        "en": "Permissions Access",
+        "ar": "وصول الصلاحيات"
+    },
+    "Add Permission": {
+        "en": "Add Permission",
+        "ar": "اضافة صلاحية"
+    },
+    "welcome": {
+        "en": "Welcome",
+        "ar": "مرحبا"
+    },
+    "year": {
+        "en": "Year",
+        "ar": "سنة"
+    },
+    "license_no": {
+        "en": "License No",
+        "ar": "رقم الرخصة"
+    },
+    "plate_no": {
+        "en": "Plate Number",
+        "ar": "رقم اللوحة"
+    },
+    "model": {
+        "en": "Model",
+        "ar": "موديل"
+    },
+    "manufacture_year": {
+        "en": "Manufacture Year",
+        "ar": "سنة التصنيع"
+    },
+    "issue_date": {
+        "en": "Issue Date",
+        "ar": "تاريخ الإصدار"
+    },
+    "expiry_date": {
+        "en": "Expiry Date",
+        "ar": "تاريخ الانتهاء"
+    },
+    "chassis_no": {
+        "en": "Chassis No",
+        "ar": "رقم الشصي"
+    },
+    "registration_no": {
+        "en": "Registration No",
+        "ar": "رقم التسجيل"
+    },
+    "truck_information": {
+        "en": "Truck Information",
+        "ar": "معلومات الشاحنة"
+    },
+    "text-align-lang": {
+        "en": "text-left",
+        "ar": "text-right"
+    },
+    "icon-align-lang": {
+        "en": "absolute left-4.5 top-4",
+        "ar": "absolute right-4.5 top-4"
+    },
+    "License Information": {
+        "en": "License Information",
+        "ar": "معلومات الرخصة"
+    },
+    "License Image": {
+        "en": "License Image",
+        "ar": "صورة الرخصة"
+    },
+    "Update License Photo": {
+        "en": "Update License Photo",
+        "ar": "تحديث صورة الرخصة"
+    },
+    "Photo": {
+        "en": "Photo",
+        "ar": "الصورة"
+    },
+    "Delete": {
+        "en": "Delete",
+        "ar": "حذف"
+    },
+    "Update": {
+        "en": "Update",
+        "ar": "تحديث"
+    },
+    "Add": {
+        "en": "Add",
+        "ar": "اضافة"
+    },
+    "Cancel": {
+        "en": "Cancel",
+        "ar": "الغاء"
+    },
+    "Click to upload": {
+        "en": "Click to upload",
+        "ar": "انقر لتحميل"
+    },
+    "or drag and drop": {
+        "en": "or drag and drop",
+        "ar": " او اسحب وأفلت"
+    },
+    "max size, 5120KB": {
+        "en": "max size, 5120KB",
+        "ar": "KB 5120, الحجم الاقصى"
+    },
+    "Licenses": {
+        "en": "Licenses",
+        "ar": "الرخص"
+    },
+    "License List": {
+        "en": "License List",
+        "ar": "قائمة الرخص"
+    },
+    "Trucks List": {
+        "en": "Trucks List",
+        "ar": "قائمة الشاحنات"
+    },
+    "Insurance List": {
+        "en": "Insurance List",
+        "ar": "قائمة التأمين"
+    },
+    "image_link": {
+        "en": "Image Link",
+        "ar": "صورة الرخصة"
+    },
+    "no_image": {
+        "en": "No Image",
+        "ar": "لا يوجد صورة"
+    },
+    "Systems": {
+        "en": "Systems",
+        "ar": "الانظمة"
+    },
+    "Tailing System": {
+        "en": "Tailing System",
+        "ar": "نظام متابعة السائقين"
+    },
+    "Tender Manager": {
+        "en": "Tender Manager",
+        "ar": "ادارة العطاءات"
+    },
+    "Truck Manager": {
+        "en": "Truck Manager",
+        "ar": "ادارة الشاحنات"
+    },
+    "Drivers List": {
+        "en": "Drivers List",
+        "ar": "قائمة السائقين"
+    },
+    "Driver Manager": {
+        "en": "Driver Manager",
+        "ar": "ادارة السائقين"
+    },
+    "DRIVER MANAGER": {
+        "en": "DRIVER MANAGER",
+        "ar": "ادارة السائقين"
+    },
+    "Drivers System": {
+        "en": "Drivers System",
+        "ar": "نظام ادارة السائقين"
+    },
+    "Drivers": {
+        "en": "Drivers",
+        "ar": "السائقين"
+    },
+    "Driver Licenses": {
+        "en": "Driver Licenses",
+        "ar": "رخص السائقين"
+    },
+    "Trucks System": {
+        "en": "Trucks System",
+        "ar": "نظام ادارة الشاحنات"
+    },
+    "Trucks Licenses": {
+        "en": "Trucks Licenses",
+        "ar": "رخص الشاحنات"
+    },
+    "License Manager": {
+        "en": "License Manager",
+        "ar": "ادارة الرخص"
+    },
+    "Total (Overall)": {
+        "en": "Total (Overall)",
+        "ar": "المجموع"
+    },
+    "Total": {
+        "en": "Total",
+        "ar": "توتال"
+    },
+    "Ramz": {
+        "en": "Ramz",
+        "ar": "رمز"
+    },
+    "On-Spot": {
+        "en": "On-Spot",
+        "ar": "احطيات"
+    },
+    "Terminated": {
+        "en": "Terminated",
+        "ar": "موقوف"
+    },
+    "Active": {
+        "en": "Active",
+        "ar": "نشط"
+    },
+    "Tailing History": {
+        "en": "Tailing History",
+        "ar": "سجل المتابعة"
+    },
+    "New Tailing Trip": {
+        "en": "New Tailing Trip",
+        "ar": "ادخال متابعة جديدة"
+    },
+    "Inactive": {
+        "en": "Inactive",
+        "ar": "غير نشط"
+    },
+    "General": {
+        "en": "General",
+        "ar": "عام"
+    },
+    "no_data": {
+        "en": "No Data Found",
+        "ar": "لا يوجد بيانات"
+    },
+    "Lists": {
+        "en": "Lists",
+        "ar": "القوائم"
+    },
+    "Add new Driver": {
+        "en": "Add new Driver",
+        "ar": "اضافة سائق جديد"
+    },
+    "View Details": {
+        "en": "View Details",
+        "ar": "عرض التفاصيل"
+    },
+    "Documents List": {
+        "en": "Documents List",
+        "ar": "قائمة الوثائق"
+    },
+    "DOCUMENTS MANAGER": {
+        "en": "DOCUMENTS MANAGER",
+        "ar": "ادارة الوثائق"
+    },
+    "Documents": {
+        "en": "Documents",
+        "ar": "الوثائق"
+    },
+    "New document type": {
+        "en": "New Document Type",
+        "ar": "نوع وثائق جديد"
+    },
+    "Add new document": {
+        "en": "Add new document",
+        "ar": "اضافة وثيقة جديدة"
+    },
+    "Document type": {
+        "en": "Document Types",
+        "ar": "انواع الوثائق"
+    },
+    "Types": {
+        "en": "Types",
+        "ar": "الانواع"
+    },
+    "type": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "New Type": {
+        "en": "New Type",
+        "ar": "اضافة نوع جديد"
+    },
+    "desc": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "Save": {
+        "en": "Save",
+        "ar": "حفظ"
+    },
+    "Add Driver": {
+        "en": "Add Driver",
+        "ar": "اضافة سائق"
+    },
+    "Add New Truck": {
+        "en": "Add New Truck",
+        "ar": "اضافة شاحنة جديدة"
+    },
+    "Edit Truck :number": {
+        "en": "Edit Truck :number",
+        "ar": "تعديل شاحنة :number"
+    }
+}

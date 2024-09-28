@@ -1,0 +1,26 @@
+.feature-box {
+    background-color: rgba($color-gray-200, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem 0;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-gray-100, 0.2);
+    transition: transform .3s;
+
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+
+        //the next 4 lines are to make the text gradient
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-orange-600, $color-orange-700);
+        -webkit-background-clip: text;
+        color: transparent;
+
+
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.05);
+    }
+}
