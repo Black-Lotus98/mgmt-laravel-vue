@@ -22,6 +22,7 @@ defineProps({
 
     <Head :title="title" />
     <Banner />
+    
     <div class="flex h-screen overflow-hidden">
         <Sidebar :menuGroups="menuGroups" />
         <div class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
