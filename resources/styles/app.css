@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./app.scss";
+
+*,
+*::before,
+*::after,
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.463);
+}
+
+body {
+    line-height: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.removeInputIcon {
+    -webkit-appearance: none;
+}
+
+.customScroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 5px;
+}
+
+.customScroll::-webkit-scrollbar-thumb:hover {
+    background-color: #75748bc2;
+}
+
+.customScroll::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: calc(100vw / 1920 * 16);
+    }
+}
+
+@media (min-width: 350px) and (max-width: 1024px) {
+    html {
+        font-size: calc(100vw / 1024 * 16);
+    }
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #5a9ac5;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #6a8be6;
+}
+
+
+.react-calendar {
+    border: none;
+    border-radius: 8px;
+}
+
+.react-calendar__tile {
+    padding: 8px;
+    text-align: center;
+}
+
+.react-calendar__tile--active {
+    background: #e2e6ec;
+    color: white;
+}
+
+body {
+    background-color: #e7ecf0;
+    line-height: normal;
+}

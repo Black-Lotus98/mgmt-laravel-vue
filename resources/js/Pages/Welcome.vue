@@ -1,6 +1,6 @@
 <script setup>
-import RotatableLogo from "@/Components/common/RotatableLogo/RotatableLogo.vue";
-import { Head, Link } from "@inertiajs/vue3";
+import Navbar from "@/Components/common/Navbar/Navbar.vue";
+import { Link } from "@inertiajs/vue3";
 
 defineProps({
     canLogin: {
@@ -12,56 +12,87 @@ defineProps({
 });
 
 
-
-
-function handleImageError() {
-    document.getElementById("screenshot-container")?.classList.add("!hidden");
-    document.getElementById("docs-card")?.classList.add("!row-span-1");
-    document.getElementById("docs-card-content")?.classList.add("!flex-row");
-    document.getElementById("background")?.classList.add("!hidden");
-}
 </script>
 
 
 <template>
 
-    <header class="header">
-
-        <RotatableLogo />
-        <v-btn v-cli icon="$vuetify" class="flex items-center" rounded="xl" position="absolute right-16 top-16" variant="text"
-            color="white">
-            <div class="text-white ">
-                <div
-                    class="flex flex-col justify-center transition-all duration-300 relative font-bold  w-8 h-8 gap-2 group active:-translate-y-1">
-                    <span
-                        class="transform transition-all duration-300 block w-full h-1 bg-white rounded-full group-active:rotate-[-135deg]  group-active:translate-y-4 ">
-                    </span>
-                    <span
-                        class="transform transition-all duration-300 block w-full h-1 bg-white rounded-full group-active:opacity-0">
-                    </span>
-                    <span
-                        class="transform transition-all duration-300 block w-full h-1 bg-white rounded-full group-active:rotate-[135deg] group-active:-translate-y-2">
-                    </span>
-                </div>
+    <header class="flex flex-col p-4 bg-gradient-image-dark bg-cover bg-center bg-no-repeat relative h-screen ">
+        <Navbar :canLogin="canLogin" :canRegister="canRegister" />
+        <div class="flex max-md:flex-col w-full justify-between mt-50 text-white">
+            <div class="flex flex-col w-full">
+                <h1>Fannoun Group</h1>
             </div>
-        </v-btn>
+            <div class="flex flex-col w-full">
+                <h1>Fannoun Group</h1>
+            </div>
 
-        <div class="absolute text-white flex top-16 right-16 gap-4 mb-4 text-center">
-            <template v-if="$page.props.auth.user">
-                <Link :href="route('dashboard')">
-                Dashboard
-                </Link>
-            </template>
-            <template v-else>
-                <Link :href="route('login')">
-                Login
-                </Link>
-                <Link :href="route('register')">
-                Register Request
-                </Link>
-            </template>
+            <!-- <div class="w-1/2">
+                <h1
+                    class="relative flex items-start justify-start flex-col text-white uppercase backface-hidden mb-10 pl-10 w-fit">
+                    <span
+                        class="animate-moveInLeft text-white font-custom-500 text-[8em] ">FANNOUN</span>
+                    <span class="heading-primary--sub">Navigating the Future</span>
+                    <span class="heading-primary--sub">One Mile at a Time</span>
+                </h1>
+
+            </div> -->
+            <!-- <div class="">
+                    <h1
+                        class="flex items-center justify-center flex-col text-white uppercase backface-hidden mb-10  w-full">
+                        <span
+                            class="animate-moveInLeft text-white font-custom-500 text-[10rem] tracking-[4rem]">FANNOUN</span>
+                        <span class="heading-primary--sub">Navigating the Future</span>
+                        <span class="heading-primary--sub">One Mile at a Time</span>
+                    </h1>
+
+                </div> -->
         </div>
+        <!-- <div class="flex flex-col">
+            <div class="flex justify-evenly items-start mx-40">
+                <div class='flex flex-col gap-6 h-[27.2rem]'>
+                    <section class="flex flex-col">
+                        <h1 ref={titleRef} class="text-white font-bold text-custom-50">
+                            {slides[currentSlide].title}
+                        </h1>
+                        <h1 ref={title2Ref} class="text-white font-bold text-custom-50 -mt-4">
+                            {slides[currentSlide].title2}
+                        </h1>
+                    </section>
+                    <section class="flex flex-col">
+                        <p ref={descRef} class="text-white text-lg font-custom-600 w-1/2">
+                            {slides[currentSlide].description}
+                        </p>
+                    </section>
+                    <section>
+                        <Link href="/#">
+                        <Button
+                            class="text-xl font-custom-600 flex items-center gap-8 border px-4 py-2 rounded-full hover:text-blue-800 hover:bg-opacity-100">
+                            Discover More
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="currentColor "
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.666992 8.0861V7.31457H18.2795C15.8929 5.12009 13.617 3.0158 11.2909 0.861413C11.452 0.681046 11.603 0.510711 11.7843 0.310303C14.4528 2.76531 17.0912 5.20025 19.79 7.68532C17.1214 10.1403 14.4831 12.5853 11.7944 15.0603C11.6332 14.89 11.4822 14.7297 11.2808 14.5192C13.5868 12.3949 15.8727 10.2806 18.2492 8.0861H0.666992Z" />
+                            </svg>
+                        </Button>
+                        </Link>
+                    </section>
+                </div>
 
+                <Image data-aos="fade-down-right" data-aos-duration="3000" src="/assets/images/airplane.png"
+                    alt="Footer" width={789.41} height={138.28} class="max-lg:hidden  w-[50rem] h-[8.65rem]" />
+            </div>
+
+            <div class="flex flex-col ml-[11.25rem] max-lg:ml-[6.25rem] max-md:ml-0 pr-14">
+                CONTENT
+            </div>
+        </div> -->
+
+    </header>
+
+
+
+    <header class="header">
         <div class="header__text-box">
             <h1 class="heading-primary">
                 <span class="heading-primary--main">Fannoun</span>
